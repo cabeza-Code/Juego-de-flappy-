@@ -1,0 +1,85 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ width: 100vw;
+ height: 100vh;
+}
+
+.caja{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ background-image:url(fondo.jpg) ;
+ background-repeat:no-repeat ;
+ background-size:100%  100%;
+ overflow:hidden;
+}
+
+
+.player{
+ position: absolute;
+ width: 60px;
+ height: 40px;
+ background-image:url(birds.png) ;
+ background-repeat:no-repeat ;
+ background-size:100%  100%;
+ 
+}
+
+.tubos{
+ position: absolute;
+ width: 100px;
+ height: 100px;
+ right: -100px;
+ /* background-image:url(tubos.webp) ; */
+ background-repeat:no-repeat ;
+ background-size:100%  100%;
+ background-position: center ;
+ 
+ 
+}
+
+h1{
+ position: absolute;
+ margin: 10px;
+ background: black;
+ color: #fff;
+}
+
+.disparos{
+ position: absolute;
+ width: 70px;
+ height: 50px;
+ background-image:url(bala.png) ; 
+ background-repeat:no-repeat ;
+ background-size:100%  100%;
+ background-position: center ;
+}
+
+.bloque{
+ position: absolute;
+ width: 80%;
+ height: 10px;
+ background: ;
+ z-index:100;
+ margin: auto;
+ left: 0;
+ right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
